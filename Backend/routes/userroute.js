@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router();
 require("../db/connection");
+// require("../db/connection");
 const User = require("../models/usermodel");
 
 router.get("/", (req, res) => {
